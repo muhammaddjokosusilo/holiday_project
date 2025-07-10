@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Atur Batas Angka</title></head>
+<body>
+  <h1>Masukkan Batas Angka</h1>
+  {% if error %}
+    <p style="color:red;">{{ error }}</p>
+  {% endif %}
+  <form method="POST">
+    Batas bawah: <input type="number" name="low" required><br>
+    Batas atas: <input type="number" name="high" required><br><br>
+    <button type="submit">Mulai Game</button>
+  </form>
+</body>
+</html>

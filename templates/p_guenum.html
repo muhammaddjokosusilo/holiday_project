@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Game Tebak Angka</title></head>
+<body>
+  <h1>Tebak Angkanya!</h1>
+  <p>{{ message }}</p>
+  <p>Sisa percobaan: {{ attempts_left }}</p>
+  <form method="POST">
+    <input type="number" name="guess" required>
+    <button type="submit">Tebak</button>
+  </form>
+</body>
+</html>
